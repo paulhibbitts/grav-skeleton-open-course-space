@@ -96,7 +96,7 @@ Each course is a top-level folder (`cpt363-basic`, `cpt363-intermediate`, `cpt36
 | **Show on Courses Page** | Whether the card appears |
 | **Course Home Page** | The course's home page, such as `home` (its first page unless set) |
 | **Course Name in Header** | The name in the course navbar, if different from the title |
-| **Course Color** | The colour of links, focus rings and the current module on the course's pages |
+| **Course Color** | A light tint of the course navbar, as in Open Course Hub (links keep the site's accent colour) |
 | **Show Header Image on Home Page** | The image in the course's `headerimage` folder, as a banner on its home page |
 | **Keep My Place** and **Side Box** | A "Continue reading" bar on the Modules page, and Markdown under the module list on every module page |
 
