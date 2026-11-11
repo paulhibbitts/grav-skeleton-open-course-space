@@ -1,0 +1,15 @@
+name: 'My Theme'
+version: 2.0.0
+description: 'Customizing Quark 2 Open Publishing'
+icon: crosshairs
+author:
+  name: 'Paul Hibbitts'
+  email: paul@hibbittsdesign.org
+  url: 'http://hibbittsdesign.org'
+compatibility:
+  grav: ['2.0']
+
+# The settings come from the parent theme, Quark 2 Open Publishing
+extends@:
+  - type: quark2-open-publishing/blueprints
+    context: 'themes://'

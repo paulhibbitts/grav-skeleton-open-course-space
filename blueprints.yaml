@@ -1,0 +1,14 @@
+name: Open Course Space
+version: 0.9.0
+description: "Open Course Space gives one course or many an open home on the web, managed from one site: a Courses page, modules, schedules, course blogs and more, all in Markdown. Uses a customized version of the Quark 2 theme (Grav 2), and includes three example courses, plus the Admin Panel and Git Sync plugins."
+icon: graduation-cap
+author:
+ name: HibbittsDesign.org
+ email: hello@hibbittsdesign.org
+ url: https://hibbittsdesign.org
+homepage: https://github.com/hibbitts-design/grav-skeleton-open-course-space
+demo: https://demo.hibbittsdesign.org/grav-open-course-space/
+docs: https://github.com/hibbitts-design/grav-skeleton-open-course-space/blob/main/README.md
+keywords: open, course, courses, lms, oer, gitsync, chromeless
+bugs: https://github.com/hibbitts-design/grav-skeleton-open-course-space/issues
+license: MIT

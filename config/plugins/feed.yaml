@@ -1,0 +1,5 @@
+enabled: true
+limit: 10
+description: 'Open Course Space course blogs'
+lang: en-us
+length: 500

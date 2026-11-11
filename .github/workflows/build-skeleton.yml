@@ -1,0 +1,41 @@
+name: Build Skeleton
+on:
+  release:
+    types: [ published ]
+  workflow_dispatch:
+    inputs:
+      tag:
+        description: 'Target tag for re-upload'
+        required: true
+        default: ''
+      admin:
+        description: 'Create also a package with Admin'
+        required: false
+        default: false
+        type: boolean
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - name: Extract Tag
+        run: echo "SKELETON_VERSION=${{ github.event.inputs.tag || github.ref_name }}" >> $GITHUB_ENV
+      # Grav 2 only: build with the latest Grav, using the fork (PHP 8.3, which Grav 2 needs).
+      # .dependencies already lists the Grav 2 plugins (Admin 2 and API).
+      - name: Generate Skeleton Packages (Grav 2)
+        uses: paulhibbitts/skeleton-builder@main
+        with:
+          version: 'latest'
+          admin: ${{ github.event.inputs.admin || false }}
+          exclude: README.md
+          filename_version: false
+      - name: Upload packages to release
+        uses: svenstaro/upload-release-action@v2
+        with:
+          repo_token: ${{ secrets.GITHUB_TOKEN }}
+          tag: ${{ env.SKELETON_VERSION }}
+          file: dist/*.zip
+          overwrite: true
+          file_glob: true
