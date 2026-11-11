@@ -5,6 +5,7 @@ visible: false
 description: 'This is an intermediate example course, organised by modules with a course blog, using a moderate number of page types and features.'
 instructor: 'Instructor: Some Name'
 course_home: home
+navbar_bg_color: '#2e7d57'
 page-inject:
     processed_content: true
 ---
