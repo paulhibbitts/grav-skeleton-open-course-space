@@ -244,6 +244,16 @@ redirects:
 
 The free [Common Cartridge Converter](https://common-cartridge-converter.hibbittsdesign.org/) (beta) turns a Canvas, Moodle, Brightspace or Blackboard course into a course folder for Open Course Space – choose the **Grav Open MultiCourse Hub or Open Course Space** destination, then copy the folder into `user/pages`.
 
+### From Grav Helios Course Hub
+
+The page names and settings are the same, so a course copies across as it is:
+
+1. Copy the course's folder (such as `cpt-363-1`) into `user/pages`
+2. Give its `course.md` a **Course Title** – Helios names courses in its own settings instead – and, if you like, a **Course Card Image**
+3. Optionally add a `sidebar`, `footer` or `headerimage` folder to the course; Helios-only settings, such as the course icon, are ignored
+
+Helios course pages start with their own `# Title` heading, which Open Course Space shows as the page's title, without adding a second one.
+
 ## Requirements
 
 - PHP >= 8.3
