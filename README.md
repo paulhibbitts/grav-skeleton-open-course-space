@@ -25,7 +25,7 @@ A complete, pre-configured package that gives one course or many an open home in
 
 - **One course or many** – a Courses page with a card for each course; with only one course, the logo goes straight to it
 - **Each course its own space** – a course navbar with the course's name and pages (a dropdown when they don't fit, usually on phones), plus its own colour, header image, sidebar and footer
-- **Modules, a course blog, or weekly units** – each course is organised its own way: a Modules page with a card for each module, a list of modules beside every module page, and Previous and Next buttons, as in [Grav Helios Course Hub](https://github.com/hibbitts-design/grav-skeleton-helios-course-hub)
+- **Modules or weekly units, plus a blog** – each course is organised its own way: a Modules page with a card for each module, a list of modules beside every module page, and Previous and Next buttons, as in [Grav Helios Course Hub](https://github.com/hibbitts-design/grav-skeleton-helios-course-hub), and a site Blog shared by all courses
 - **A course-ready structure** – a Home page with "What's Happening This Week" reminders, plus schedule, resources and syllabus pages
 - **Share content between courses** – reuse any page or section across courses with the included Page Inject plugin
 - **LMS embedding without LTI** – add `/chromeless:true` or `?embedded=true` to any page URL to show only its content, ready to embed in Canvas, Moodle, Brightspace or Blackboard
@@ -100,7 +100,7 @@ Each course is a top-level folder (`cpt363-basic`, `cpt363-intermediate`, `cpt36
 | **Show Header Image on Home Page** | The image in the course's `headerimage` folder, as a banner on its home page |
 | **Keep My Place** and **Side Box** | A "Continue reading" bar on the Modules page, and Markdown under the module list on every module page |
 
-The example courses each show different features: CPT363-1 is organised by modules, CPT363-2 adds a course blog (`cpt363-intermediate/blog`), and CPT363-3 is organised by weekly units (`cpt363-advanced/weekly-units`).
+The example courses each show different features: CPT363-1 and CPT363-2 are organised by modules (CPT363-2 with more page types), and CPT363-3 is organised by weekly units (`cpt363-advanced/weekly-units`).
 
 ### Adding a Course
 
@@ -125,7 +125,7 @@ The site's main address still opens as before, and both addresses share the same
 
 - **Home** – the course's "What's Happening This Week" reminders and preparations, kept in its own parts (`_reminders`, `_preparations`) and shown with Page Inject, so the same text can appear on the `lms-home` page too
 - **Modules** – a **Modules** page (`module.md`) with a card for each module; each module is a **Course Page** inside it (its Description and Group set its card), with the module list beside it, a link back to the Modules page, and Previous and Next buttons through every module and page
-- **Course blog or weekly units** – a blog page inside the course, as in CPT363-2 and CPT363-3; weekly units hide their post dates and tags (`hide_post_date`, `hide_post_taxonomy`)
+- **Weekly units** – a blog page inside the course, as in CPT363-3; weekly units hide their post dates and tags (`hide_post_date`, `hide_post_taxonomy`)
 - **Schedule, Resources, Syllabus and the like** – **Course Pages**, which can have Learning Objectives and a header image (`header_image: true`)
 - **The course navbar** – lists the course's visible pages; turn on **Hide from Menu** (on the **Advanced** tab) to leave one out
 
