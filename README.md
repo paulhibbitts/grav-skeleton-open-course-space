@@ -83,7 +83,7 @@ Everything below is done in the Admin Panel, or by editing the files in `user/pa
 
 ### Courses Page
 
-The Courses page (`00.courses`) shows its welcome text, then a card for each course. On its **Courses** tab: **Subtitle**, **Cards Per Row** (3 unless set), **Card Image Layout** and **Description Line Limit**.
+The Courses page (`00.courses`) shows its welcome text, then a card for each course. On its **Courses** tab: **Subtitle**, **Cards Per Row** (3 unless set), **Card Image Layout**, **Description Line Limit** and **Show Search Box** (a box above the cards that searches all the courses).
 
 ### Courses
 
@@ -99,6 +99,8 @@ Each course is a top-level folder (`cpt363-basic`, `cpt363-intermediate`, `cpt36
 | **Course Color** | A light tint of the course navbar, as in Open Course Hub (links keep the site's accent colour) |
 | **Show Header Image on Home Page** | The image in the course's `headerimage` folder, as a banner on its home page |
 | **Keep My Place** and **Side Box** | A "Continue reading" bar on the Modules page, and Markdown under the module list on every module page |
+
+On its **Attribution** tab, as for a guide: **Show OER Attribution Block**, **License**, **License URL** and **Attribution Text**, shown at the bottom of every page in the course.
 
 Each course is in the site menu, as guides are in Open Publishing Space; turn on **Hide from Menu** (on its **Advanced** tab) to leave it out, as the example courses do, so readers start from the Courses page.
 
