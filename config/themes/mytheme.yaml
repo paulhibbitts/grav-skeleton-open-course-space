@@ -4,6 +4,9 @@ streams:
       type: ReadOnlyStream
       prefixes:
         '': [user/themes/mytheme, user/themes/quark2-open-publishing, user/themes/quark2]
+# Auto mode (Light or Dark, as the visitor's system), and the Open Course Space accent colour (slate blue)
+theme-mode: auto
+accent-color: '#3b5682'
 chromeless:
   enabled: false
 display_of_git_sync_repo_link: menu
