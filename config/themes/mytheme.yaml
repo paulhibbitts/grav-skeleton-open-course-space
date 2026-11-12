@@ -9,7 +9,7 @@ chromeless:
 display_of_git_sync_repo_link: menu
 type_of_git_sync_repo_link: view
 markdown_link:
-  enabled: true
+  enabled: false
   location: page
   hide_templates:
     - blog

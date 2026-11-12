@@ -29,7 +29,7 @@ A complete, pre-configured package that gives one course or many an open home in
 - **A course-ready structure** – a Home page with "What's Happening This Week" reminders, plus schedule, resources and syllabus pages
 - **Share content between courses** – reuse any page or section across courses with the included Page Inject plugin
 - **LMS embedding without LTI** – add `/chromeless:true` or `?embedded=true` to any page URL to show only its content, ready to embed in Canvas, Moodle, Brightspace or Blackboard
-- **Open authoring built in** – Git Sync keeps the site in step with GitHub or a similar Git service, with "Edit this Page" links to each page's Markdown source, and a "This page as Markdown (.md)" link on pages
+- **Open authoring built in** – Git Sync keeps the site in step with GitHub or a similar Git service, with "Edit this Page" links to each page's Markdown source, and an optional "This page as Markdown (.md)" link on pages
 - **Course content shortcodes and rich embeds** – learning objectives, key takeaways, reflections and more, with the same shortcodes as Grav Helios Course Hub, plus Google Slides, H5P, PDF, iFrame and link cards
 - **Course search** – a search box in each course's sidebar and beside its modules searches just that course
 - **Built on Quark 2** – Grav 2's modern default theme, with Light, Dark and Auto modes and a toggle for visitors
@@ -165,7 +165,7 @@ Add one of these to any page's address to show only its content, without the men
 
 Each course's `lms-home` page shows just that course's reminders and preparations, ready to embed as your LMS course's home page.
 
-Pages can also be reused as Markdown: a "This page as Markdown (.md)" link below a page's content gets that page as Markdown (the same as adding `.md` to its address, for example `/cpt363-basic/syllabus.md`). Its settings are under **Reuse Pages as Markdown** in **Themes → My Theme**, and Grav's Markdown output can be turned off in **Configuration → System → Content**.
+Pages can also be reused as Markdown: adding `.md` to a page's address gets that page as Markdown (for example `/cpt363-basic/syllabus.md`). A "This page as Markdown (.md)" link below each page's content is off at first – turn on **Display This Page as Markdown Link** under **Reuse Pages as Markdown** in **Themes → My Theme**, and Grav's Markdown output can be turned off in **Configuration → System → Content**.
 
 ### Git Sync and "Edit this Page"
 

@@ -19,7 +19,7 @@ For example, the URL [https://demo.hibbittsdesign.org/grav-open-course-space/](h
 
 ## Get Any Page as Markdown
 
-On Grav 2.1 and newer, the "This page as Markdown (.md)" link below a page's content gets that page as Markdown, ready to reuse – the same as adding `.md` to the page's address, for example `/cpt363-basic/syllabus.md`, or `/index.md` for the home page. The link's settings are under **Reuse Pages as Markdown** in **Themes → My Theme**, and Grav's Markdown output can be turned off in **Configuration → System → Content**.
+On Grav 2.1 and newer, adding `.md` to a page's address gets that page as Markdown, ready to reuse – for example `/cpt363-basic/syllabus.md`, or `/index.md` for the home page. To show a "This page as Markdown (.md)" link below each page's content, turn on **Display This Page as Markdown Link** under **Reuse Pages as Markdown** in **Themes → My Theme** (off at first), and Grav's Markdown output can be turned off in **Configuration → System → Content**.
 
 ## One Course or Many
 
