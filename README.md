@@ -104,7 +104,7 @@ On its **Attribution** tab, as for a guide: **Show OER Attribution Block**, **Li
 
 Each course is in the site menu, as guides are in Open Publishing Space; turn on **Hide from Menu** (on its **Advanced** tab) to leave it out, as the example courses do, so readers start from the Courses page.
 
-The example courses each show different features: CPT363-1 and CPT363-2 are organised by modules (CPT363-2 with more page types), and CPT363-3 is organised by weekly units (`cpt363-advanced/weekly-units`).
+The example courses each show different features: CPT363-1 and CPT363-2 are organised by modules (CPT363-2 with more page types), and CPT363-3 is organised by weekly units (`cpt363-advanced/weekly-units`) and shows an OER attribution and license on its pages.
 
 ### Adding a Course
 
