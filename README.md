@@ -143,6 +143,8 @@ Each course also has its own shared parts, which don't appear in the menu:
 
 To include a page from one course in another, add `[plugin:page-inject](/cpt363-basic/resources)` with the page's route. Edits to the original then appear in every course that includes it.
 
+Pages for every course sit outside the courses, in the site menu: the **Blog** (`15.blog`) and **About the Courses** (`16.about-the-courses`), with the sections, important dates and policies they share, which each example course's sidebar links to.
+
 ### Theme Options
 
 Under **Themes → My Theme** (see the [Quark 2 Open Publishing README](https://github.com/hibbitts-design/grav-theme-quark2-open-publishing#theme-options) for every option):
