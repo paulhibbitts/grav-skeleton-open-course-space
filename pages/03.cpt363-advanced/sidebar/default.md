@@ -16,9 +16,6 @@ Fridays 12:00-1:00pm
 Suggestion, concern or complaint?  
 [Anonymous Course Feedback](#)
 
-## All Sections
-[About the Courses](/about-the-courses) – the sections, important dates and shared policies
-
 ## Canvas LMS
 [fa="calendar"][/fa][Calendar](https://canvas.sfu.ca/calendar)  
 [fa="pencil"][/fa][Assignments](https://canvas.sfu.ca/courses/55288/assignments)  
