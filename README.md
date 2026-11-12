@@ -234,9 +234,15 @@ The course sits at the site root, so it moves into its own folder:
 1. Create a course folder (such as `01.cpt363`) with a `course.md` page – a title, a description for its card, and `course_home: home`
 2. Move the course's pages into it, including `sidebar`, `footer`, `headerimage` and `lms-home`
 3. Change links that start at the site root, such as `/schedule` to `/cpt363/schedule`, and Page Inject paths such as `/home/_reminders`
-4. Update the links and embeds in your LMS, as the course's addresses now include its folder
+4. Keep your LMS links and embeds working: add a redirect to `user/config/site.yaml`, listing the course's top-level pages, so their old addresses forward to the new ones (including `?embedded=true` and `/chromeless:true` addresses, and pages inside Modules)
+5. With only this course, set the site's home page to the course's home (**Configuration → System → Home Page**, such as `/cpt363/home`), so the site's own address still opens it
 
-The free [Common Cartridge Converter](https://common-cartridge-converter.hibbittsdesign.org/) (beta) turns a Canvas, Moodle, Brightspace or Blackboard course into an Open Course Hub course, which can then be moved in the same way.
+```yaml
+redirects:
+  '/(home|modules|schedule|topics|resources|syllabus|lms-home|lms-schedule)([/?].*)?$': '/cpt363/$1$2'
+```
+
+The free [Common Cartridge Converter](https://common-cartridge-converter.hibbittsdesign.org/) (beta) turns a Canvas, Moodle, Brightspace or Blackboard course into a course folder for Open Course Space – choose the **Grav Open MultiCourse Hub or Open Course Space** destination, then copy the folder into `user/pages`.
 
 ## Requirements
 
