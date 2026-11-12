@@ -1,5 +1,5 @@
 ---
-title: 'Welcome to the Course Blog'
+title: 'Welcome to the Blog'
 published: true
 date: '08-05-2018 09:00'
 taxonomy:

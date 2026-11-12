@@ -12,7 +12,7 @@ hide_post_summary: true
 hide_post_date: true
 hide_post_taxonomy: true
 feed:
-    description: 'Open Course Space course blog'
+    description: 'CPT363-3 weekly units'
     limit: 10
 child_type: item
 ---
