@@ -8,7 +8,7 @@
 
 [![Grav Discord Chat](https://img.shields.io/discord/501836936584101899.svg?logo=discord&colorB=728ADA&label=Grav%20Discord%20Chat)](https://chat.getgrav.org) [![Latest Release](https://img.shields.io/github/v/release/hibbitts-design/grav-skeleton-open-course-space?style=flat-square&label=Release)](https://github.com/hibbitts-design/grav-skeleton-open-course-space/releases/latest) [![License](https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square)](https://github.com/hibbitts-design/grav-skeleton-open-course-space/blob/main/LICENSE) [![PHP](https://img.shields.io/badge/PHP-%3E%3D8.3-8892BF?style=flat-square&logo=php&logoColor=white)](https://learn.getgrav.org/2/basics/requirements)
 
-<p>Try the <a href="https://demo.hibbittsdesign.org/grav-open-course-space/">demo</a></p>
+<p>Try the <a href="https://demo.hibbittsdesign.org/grav-open-course-space-2/">demo</a></p>
 
 <p>A free, open-source package built on <a href="https://getgrav.org">Grav CMS</a> 2 and the <a href="https://github.com/hibbitts-design/grav-theme-quark2-open-publishing">Quark 2 Open Publishing</a> theme – the twin of <a href="https://github.com/hibbitts-design/grav-skeleton-open-publishing-space">Grav Open Publishing Space</a>, with Markdown file-based content, a built-in Admin panel, and no database required.</p>
 

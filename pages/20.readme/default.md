@@ -15,7 +15,7 @@ published: true
 
 By adding the URL parameter (i.e. flag) `chromeless:true` to any Open Course Space page you can display that page's content without the global header image, site navigation bar, sidebar and footer - a great way to seamlessly embed Open Course Space pages into other systems.  
 
-For example, the URL [https://demo.hibbittsdesign.org/grav-open-course-space/](https://demo.hibbittsdesign.org/grav-open-course-space/) displays the site's home page with the full site around it, but the URL [https://demo.hibbittsdesign.org/grav-open-course-space/chromeless:true](https://demo.hibbittsdesign.org/grav-open-course-space/chromeless:true) will only display that page's content. Any links between Open Course Space pages will result in pages being displayed in the same manner.
+For example, the URL [https://demo.hibbittsdesign.org/grav-open-course-space-2/](https://demo.hibbittsdesign.org/grav-open-course-space-2/) displays the site's home page with the full site around it, but the URL [https://demo.hibbittsdesign.org/grav-open-course-space-2/chromeless:true](https://demo.hibbittsdesign.org/grav-open-course-space-2/chromeless:true) will only display that page's content. Any links between Open Course Space pages will result in pages being displayed in the same manner.
 
 ## Get Any Page as Markdown
 
