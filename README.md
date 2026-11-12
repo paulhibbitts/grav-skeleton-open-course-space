@@ -100,6 +100,8 @@ Each course is a top-level folder (`cpt363-basic`, `cpt363-intermediate`, `cpt36
 | **Show Header Image on Home Page** | The image in the course's `headerimage` folder, as a banner on its home page |
 | **Keep My Place** and **Side Box** | A "Continue reading" bar on the Modules page, and Markdown under the module list on every module page |
 
+Each course is in the site menu, as guides are in Open Publishing Space; turn on **Hide from Menu** (on its **Advanced** tab) to leave it out, as the example courses do, so readers start from the Courses page.
+
 The example courses each show different features: CPT363-1 and CPT363-2 are organised by modules (CPT363-2 with more page types), and CPT363-3 is organised by weekly units (`cpt363-advanced/weekly-units`).
 
 ### Adding a Course
@@ -215,7 +217,8 @@ Courses move with no content changes:
 
 1. Copy the courses' folders into `user/pages` – their `subsite.md` pages and settings still work (renaming one to `course.md` is optional, with Grav Helios Course Hub's field names, such as `description` for `subsite_list_description` and `course_home` for `subsite_home`)
 2. Course colours carry over (`navbar_bg_color`)
-3. In **Themes → My Theme**, set the options again – Open Matter's Bootstrap style settings have no equivalent here
+3. To list a course in the site menu, remove `visible: false` from its `subsite.md`
+4. In **Themes → My Theme**, set the options again – Open Matter's Bootstrap style settings have no equivalent here
 
 Some things look different: the header image shows on each course's home page only, the course navbar replaces the Bootstrap NavBar, a course's own `favicon` folder isn't used, and custom CSS written for Bootstrap needs rewriting.
 
