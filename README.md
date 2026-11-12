@@ -83,7 +83,7 @@ Everything below is done in the Admin Panel, or by editing the files in `user/pa
 
 ### Courses Page
 
-The Courses page (`00.courses`) shows its welcome text, then a card for each course. On its **Courses** tab: **Subtitle**, **Cards Per Row** (3 unless set), **Card Image Layout**, **Description Line Limit** and **Show Search Box** (a box above the cards that searches all the courses).
+The Courses page (`00.courses`) shows its welcome text, then a card for each course. On its **Courses** tab: **Subtitle**, **Cards Per Row** (3 unless set), **Card Image Layout**, **Description Line Limit** and **Show Search Box** (a box above the cards that searches all the courses, off unless turned on).
 
 ### Courses
 
